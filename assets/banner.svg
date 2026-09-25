@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240">
+  <defs>
+    <linearGradient id="tradeBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06121e"/>
+      <stop offset="50%" stop-color="#0a1e2f"/>
+      <stop offset="100%" stop-color="#0f2b3c"/>
+    </linearGradient>
+    <linearGradient id="tradeTextGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <linearGradient id="tradeBorderGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="10" y="10" width="980" height="220" rx="16" fill="url(#tradeBgGradient)" stroke="url(#tradeBorderGradient)" stroke-width="2"/>
+
+  <!-- Subtle Financial Grid Accent -->
+  <g stroke="#10b981" stroke-width="0.5" opacity="0.12">
+    <line x1="10" y1="65" x2="990" y2="65" />
+    <line x1="10" y1="120" x2="990" y2="120" />
+    <line x1="10" y1="175" x2="990" y2="175" />
+    <line x1="200" y1="10" x2="200" y2="230" />
+    <line x1="500" y1="10" x2="500" y2="230" />
+    <line x1="800" y1="10" x2="800" y2="230" />
+  </g>
+
+  <!-- Financial Candlestick / Graph Accent -->
+  <g transform="translate(65, 65)">
+    <circle cx="55" cy="55" r="48" fill="#08202d" stroke="#10b981" stroke-width="2.5" />
+    <!-- Candlesticks -->
+    <line x1="35" y1="40" x2="35" y2="70" stroke="#10b981" stroke-width="2"/>
+    <rect x="30" y="45" width="10" height="18" fill="#10b981" rx="2"/>
+    
+    <line x1="55" y1="30" x2="55" y2="80" stroke="#34d399" stroke-width="2"/>
+    <rect x="50" y="38" width="10" height="26" fill="#34d399" rx="2"/>
+
+    <line x1="75" y1="45" x2="75" y2="75" stroke="#10b981" stroke-width="2"/>
+    <rect x="70" y="50" width="10" height="15" fill="#10b981" rx="2"/>
+  </g>
+
+  <!-- Title & Typography -->
+  <text x="200" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="url(#tradeTextGradient)" letter-spacing="-0.5">
+    Autonomous Trading Agents Platform
+  </text>
+  <text x="200" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+    LangGraph Multi-Agent Architecture · Financial Dataflows · Risk Governance
+  </text>
+
+  <!-- Tag Pills -->
+  <g transform="translate(200, 162)">
+    <rect x="0" y="0" width="95" height="26" rx="6" fill="#08202d" stroke="#065f46" stroke-width="1"/>
+    <text x="47" y="17" font-family="sans-serif" font-size="11" font-weight="600" fill="#34d399" text-anchor="middle">LANGGRAPH</text>
+
+    <rect x="105" y="0" width="100" height="26" rx="6" fill="#08202d" stroke="#065f46" stroke-width="1"/>
+    <text x="155" y="17" font-family="sans-serif" font-size="11" font-weight="600" fill="#6ee7b7" text-anchor="middle">MULTI-AGENT</text>
+
+    <rect x="215" y="0" width="125" height="26" rx="6" fill="#08202d" stroke="#065f46" stroke-width="1"/>
+    <text x="277" y="17" font-family="sans-serif" font-size="11" font-weight="600" fill="#a7f3d0" text-anchor="middle">RISK DEBATE GRAPH</text>
+
+    <rect x="350" y="0" width="125" height="26" rx="6" fill="#08202d" stroke="#065f46" stroke-width="1"/>
+    <text x="412" y="17" font-family="sans-serif" font-size="11" font-weight="600" fill="#38bdf8" text-anchor="middle">FINANCIAL DATAFLOW</text>
+  </g>
+</svg>

@@ -7,6 +7,12 @@
 
 ---
 
+<p align="center">
+  <img alt="Autonomous Trading Agents Platform" src="assets/banner.svg" width="100%" />
+</p>
+
+
+
 ## System Overview
 
 **Autonomous Multi-Agent Financial Trading & Market Intelligence Platform** is an enterprise-grade quantitative trading framework orchestrating specialized autonomous LLM agents (Market Analysts, Sentiment Analysts, Fundamentals Analysts, News Analysts, Bull/Bear Researchers, and Risk Debaters) over a stateful **LangGraph** execution graph.
@@ -34,7 +40,7 @@ Full release notes are in [CHANGELOG.md](CHANGELOG.md).
 - [2026-03] **TradingAgents v0.2.3** released with multi-language support, GPT-5.4 family models, unified model catalog, backtesting date fidelity, and proxy support.
 - [2026-03] **TradingAgents v0.2.2** released with GPT-5.4/Gemini 3.1/Claude 4.6 model coverage, five-tier rating scale, OpenAI Responses API, Anthropic effort control, and cross-platform stability.
 - [2026-02] **TradingAgents v0.2.0** released with multi-provider LLM support (GPT-5.x, Gemini 3.x, Claude 4.x, Grok 4.x) and improved system architecture.
-- [2026-01] **Trading-R1** [Technical Report](https://arxiv.org/abs/2509.11420) released, with [Terminal](https://github.com/TauricResearch/Trading-R1) expected to land soon.
+- [2026-01] **Trading-R1** [Technical Report](https://arxiv.org/abs/2509.11420) released, with [Terminal](https://github.com/Swastik023/autonomous-trading-agents-platform) expected to land soon.
 
 </details>
 <!-- news:end -->
@@ -57,7 +63,7 @@ TradingAgents is a multi-agent trading framework that mirrors the dynamics of re
   <img src="assets/schema.png" style="width: 100%; height: auto;">
 </p>
 
-> TradingAgents framework is designed for research purposes. Trading performance may vary based on many factors, including the chosen backbone language models, model temperature, trading periods, the quality of data, and other non-deterministic factors. [It is not intended as financial, investment, or trading advice.](https://tauric.ai/disclaimer/)
+> TradingAgents framework is designed for research purposes. Trading performance may vary based on many factors, including the chosen backbone language models, model temperature, trading periods, the quality of data, and other non-deterministic factors. [It is not intended as financial, investment, or trading advice.](#disclaimer)
 
 Our framework decomposes complex trading tasks into specialized roles.
 
@@ -99,7 +105,7 @@ Our framework decomposes complex trading tasks into specialized roles.
 
 Clone TradingAgents:
 ```bash
-git clone https://github.com/TauricResearch/TradingAgents.git
+git clone https://github.com/Swastik023/autonomous-trading-agents-platform.git
 cd TradingAgents
 ```
 
@@ -362,16 +368,12 @@ Contributions are welcome: bug fixes, documentation, and feature ideas; past con
 
 ## Citation
 
-Please reference our work if you find *TradingAgents* provides you with some help :)
-
-```
-@misc{xiao2025tradingagentsmultiagentsllmfinancial,
-      title={TradingAgents: Multi-Agents LLM Financial Trading Framework}, 
-      author={Yijia Xiao and Edward Sun and Di Luo and Wei Wang},
-      year={2025},
-      eprint={2412.20138},
-      archivePrefix={arXiv},
-      primaryClass={q-fin.TR},
-      url={https://arxiv.org/abs/2412.20138}, 
+```bibtex
+@software{agnihotri2026tradingagents,
+  author = {Swastik Agnihotri},
+  title = {Autonomous Multi-Agent Financial Trading & Market Intelligence Platform},
+  year = {2026},
+  url = {https://github.com/Swastik023/autonomous-trading-agents-platform}
 }
 ```
+
